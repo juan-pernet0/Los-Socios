@@ -1,0 +1,571 @@
+*{
+    margin: 0rem;
+}
+.form{
+    width: 21%;
+    margin: 2rem 0.5rem;
+    /*box-shadow: 2px 2px 5px 1px #7f8082ad;*/
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin: 0 0;
+    padding: 0 0;
+}
+.lista{
+    width: 60%;
+    margin: 1rem 0rem;
+
+}
+.form input,select{
+    margin-bottom: 1rem;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    width: inherit;
+}
+h1{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+}
+.container form{
+    height: auto;
+    box-shadow: 2px 2px 5px 1px #7f8082ad;
+    padding: 0.5rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+
+}
+/*Navbar*/
+#navbarNav{
+    display: flex;
+    justify-content: space-between;
+}
+.div-menu-bootstrap{
+    width: 200px;
+}
+.Documento{
+    position: relative;
+    right: -150px;
+    z-index: 1;
+}
+.boton-menu-bootstrap{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Documento{
+    z-index: 3;
+}
+.boton-menu-bootstrap:hover{
+    background-color: #a9b3bbb5;
+    transition: all 1s ease;
+}
+.componentes{
+    display: flex;
+}
+.buscar{
+    margin-top: 1rem;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buscar form {    
+    width: 50%;
+}
+.buscar form div{
+    width: auto;
+    display: flex;
+}
+.buscar form div input{
+    margin-right: 1rem;
+}
+/*Estadisticas jsp*/
+.main-estadisticas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-estadisticas h2{
+    margin-top: 1rem;
+}
+.conatiner_estadistica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    border-bottom:  2px solid #06060682;
+}
+.Tabla-Consulta{
+    display: flex;
+}
+.Tabla-Consulta table{
+    width: 80%;
+}
+.Formulario-Consulta{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Formulario-Consulta form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Formulario-Consulta form input{
+    margin: 1rem;
+}
+.Formulario-Consulta form button{
+
+    width: 5rem;
+}
+
+.boton-pdf{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    margin-bottom: 2rem;
+}
+.boton-pdf a{
+    text-decoration: none;
+    color: white;
+}
+.grafico{
+    margin-top: -5.2rem;
+}
+.Octava_Consulta{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    display:flex;
+    margin: 2rem;
+}
+.titulo img{
+    width: 3rem;
+}
+.tabla{	
+    height: auto;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tabla table{
+    width: 100%;	
+    height: inherit;
+}
+.confirmar{
+    width: 25%;
+    height: 26rem;
+    margin: -3rem 2rem 0rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+
+}
+.tabla-confirmar{
+    width: 90%;
+    min-height: 75%;
+    margin-top: 1rem;
+    border: 1px solid black;
+
+}
+.tabla-confirmar table{
+    width: 100%;
+}
+.tabla-confirmar table tr{
+    text-align: center;
+    align-items: center;	
+}
+.tabla-confirmar table th{
+    border: 1px solid black;
+}
+.tabla-confirmar table,td,th{
+    padding: 0.3rem;
+}
+.confirmar .botones{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.Total{
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.Total p{
+
+    margin: 0.05rem;	
+}
+.main{
+    display: flex;
+}
+
+/* Estilos registro Usuarios*/
+.container-registrar{
+    width: 80%;
+    height: 85vh;
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px gray;
+    display: flex;
+    flex-wrap: wrap;    
+}
+.PPFR{
+    width: 50%;
+    height: 85%;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.SPFR{
+    width: 50%;
+    height: 85%;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.boton{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 25rem;
+}
+
+/*estilos pedidos*/
+.listapedido{
+    width: 90%;
+    margin: 1rem auto;
+}
+.listapedido a{
+    text-decoration: none;
+    color: white;
+}
+
+/* estilos*/
+.devolver{
+    margin: 2rem;
+}
+.devolver a{
+    text-decoration: none;
+    color: white;
+}
+.footer-devolver{
+    height: 2.5rem; 
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.botones-footer{
+    display: flex;
+}
+.botones-footer p{
+    margin: auto;
+    margin-left: 1rem;
+    background-color: #17a2b8;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.Listo-boton{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 2rem;
+}
+
+/*Estilos Pedido*/
+.Pedidos-main{
+    display: flex;
+    padding: 2rem;
+}
+.tabla-Pedidos{
+    width: 70%;
+    height: auto;
+}
+.tabla-Pedidos button{
+    margin-top: 2rem;
+}
+.tabla-Pedidos button a{
+    text-decoration: none;
+    color: white;
+}
+/*Datos Usuario*/
+
+.title-usu{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+.datos{
+    width: 80%;
+    height: 85vh;
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px gray;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.column-1{
+    width: 50%;
+    height: 85%;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.button-datos{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 25rem;
+}
+
+.button-datos button{
+    margin: 1rem;
+    width: 93px;
+}
+
+.button-datos a{
+    color: white;
+    text-decoration: none;
+}
+/*Precios*/
+
+.title-preci{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+}
+.listaprecios{
+    width: 70%;
+    margin: 1rem auto;
+}
+
+.listaprecios tr{
+    border: none;
+}
+.listaprecios .td1{
+    border: none;
+    width: 20%;
+    vertical-align: middle;
+}
+.listaprecios .td2{
+    border: none;
+    width: 10%;
+    vertical-align: middle;
+}
+
+.listaprecios .td3{
+    border: none;
+    width: 60%;
+    vertical-align: middle;
+}
+
+.listaprecios .td4{
+    border: none;
+    width: 10%;
+    vertical-align: middle;
+}
+
+.listaprecios .td3 hr{
+    height: 2px;
+    background-color: #212529;
+    border: none;
+    opacity: 100;
+    vertical-align: middle;
+}
+/*estilos llenado*/
+
+.containerllenado{
+    display: flex;
+    margin: 0 0;
+    padding: 0 0;
+}
+.listallenado{
+    width: 70%;
+    margin: 1rem auto;
+}
+.btn-regiter{
+    margin-top: 2rem;
+    display: flex;
+    width: 15%;
+}
+.titulollend h1{
+    text-align: center;
+    margin: 2rem;
+}
+.container-select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-select form .form-select{
+    width: 50rem;
+}
+.tablallend{
+    height: auto;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tablallend .mainlled{
+    display: flex;
+}
+.tablallend .mainlled .form1{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    width: 16rem;
+}
+
+.tablallend .mainlled .form2{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 16rem;
+}
+.tablallend .mainlled form button{
+    width: 13rem;
+}
+
+.tablaprollen{
+    height: auto;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.tablaprollend .mainprollen{
+    display:flex;
+}*/
+.op-llen{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/*Confirmar Pedido Estilos*/
+.main-confirmar-pedido{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.tabla-confirmar-Pedido{
+    width: 70%;
+    margin-right: 4rem;
+}
+.Formulario-Confirmar{
+    width: 30%;
+    margin-top: -6rem;
+}
+
+
+.main-index{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.main-index nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    padding: 0 2rem;
+    /*    justify-content: center;
+        align-items: center;*/
+}
+
+.card{
+    width: 60%;
+    height: 25rem;
+    margin: 2rem 1rem;
+}
+.card .imagen-cartas{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+.card .imagen-cartas img{
+    height: 100%;
+}
+.card .card-body .Titulo-Carta{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card .card-body .Parrafo-Carta{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-mapa{
+    margin: 2rem;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+.main-mapa h1{
+    margin: 2rem;
+}
+.iconos{
+    padding: 7rem 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.icono{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icono p{
+    font-size: 20px;
+}
